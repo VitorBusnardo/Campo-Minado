@@ -15,6 +15,10 @@
   💼 Ferramentas: <strong>Eclipse IDE com Java 15. </strong>
 </p>
 
+<p align="left">
+  :art: Padrão de Projeto: <strong>Programação Orientada a Objetos. </strong>
+</p>
+
 <p align="justify">
   💌 Entre em contato comigo através das plataformas abaixo: ⤵️
 </p>
