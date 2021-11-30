@@ -8,7 +8,7 @@
 </p>
 
 <p align="left">
-  🦄 Linguagens: <strong>Java Swing..</strong>
+  🦄 Linguagens: <strong>Java Swing.</strong>
 </p>
 
 <p align="left">
