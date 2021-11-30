@@ -3,16 +3,16 @@
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
 <p align="justify"> 
-  Foi desenvolvido por nós um software batizado com o nome de Intermedix, com a intenção de te ajudar a administrar seu próprio negócio, batendo forte na tecla do setor Administrativo, com determinadas funções de controle de estoque, relatórios, contas, entre outras. Por tanto atuando junto com o serviço web, descrito no outro repositório. Para ter acesso a mais infomações e prévias realize o download do Artigo do projeto.
+  Totalmente desenvolvido em Java, nosso campo minado tem o intuito de treinar e realizar com perfeição a tão famosa Orientação a Objeto. Por meio dessas, foi desenvolvido esse projeto interativo com o usuário que se constitui em um classico campo minado, em que as regras todos conhecem, com uma interface gráfica muito bela e bem distribuida. Utilizando a IDE Eclipse para demonstrar a minha familiarização com a mesma, assim me tortando bem ecletico.
 
 </p>
 
 <p align="left">
-  🦄 Linguagens: <strong>Java Swing, MySql e SQLite.</strong>
+  🦄 Linguagens: <strong>Java Swing..</strong>
 </p>
 
 <p align="left">
-  💼 Ferramentas: <strong>NetBeans com Java 8. </strong>
+  💼 Ferramentas: <strong>Eclipse IDE com Java 15. </strong>
 </p>
 
 <p align="justify">
@@ -35,30 +35,3 @@
   <a href="#" alt="Instagram">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=LINK-DO-SEU-INSTAGRAM"/></a>
 </p>  
-
-<h3> :rocket: &nbsp;Download do Artigo do Projeto </h3>
-
-```
-https://www.mediafire.com/file/qqcj1qmgf730xgu/Artigo_SyTecb.docx/file
-```
-<h3> :monocle_face: &nbsp;Banco para Login na Aplicação</h3>
-
-```
-create database if not exists usuarios_sytecb;
-
-use usuarios_sytecb;
-
-create table usuario(
-id integer primary key not null auto_increment,
-nome varchar(100) not null,
-sobrenome varchar(100) not null,
-email varchar(100) not null unique,
-nomeUsuario varchar(100) not null unique,
-senha varchar(100) not null,
-telefone varchar(100) not null unique
-) default charset = utf8 ;
-
-insert into Usuario values (null, 'Vitor', 'Busnardo', 'busnardovitor@gmail.com', 'Admin', 'admin', '17981806259');
-
-select * from usuario;
-```
